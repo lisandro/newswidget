@@ -7,15 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A01B4087250EB0E50078D81E /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A01B406E250EB0BF0078D81E /* WidgetKit.framework */; };
+		A01B4088250EB0E50078D81E /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A01B4070250EB0BF0078D81E /* SwiftUI.framework */; };
+		A01B408B250EB0E50078D81E /* HeadlinesWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01B408A250EB0E50078D81E /* HeadlinesWidget.swift */; };
+		A01B408E250EB0E60078D81E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A01B408D250EB0E60078D81E /* Assets.xcassets */; };
+		A01B4090250EB0E60078D81E /* HeadlinesWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = A01B408C250EB0E50078D81E /* HeadlinesWidget.intentdefinition */; };
+		A01B4091250EB0E60078D81E /* HeadlinesWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = A01B408C250EB0E50078D81E /* HeadlinesWidget.intentdefinition */; };
+		A01B4094250EB0E60078D81E /* HeadlinesWidgetExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = A01B4086250EB0E50078D81E /* HeadlinesWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A01B4099250EB7880078D81E /* HeadlinesWidgetEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01B4098250EB7880078D81E /* HeadlinesWidgetEntryView.swift */; };
+		A01B409B250EB7BC0078D81E /* HeadlinesWidgetEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01B409A250EB7BC0078D81E /* HeadlinesWidgetEntry.swift */; };
+		A01B409D250EB7D90078D81E /* HeadlinesWidgetProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01B409C250EB7D90078D81E /* HeadlinesWidgetProvider.swift */; };
+		A01B40A7250EBABB0078D81E /* TopHeadlines.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01B40A6250EBABB0078D81E /* TopHeadlines.swift */; };
+		A01B40A8250EBABB0078D81E /* TopHeadlines.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01B40A6250EBABB0078D81E /* TopHeadlines.swift */; };
+		A01B40AB250EBD840078D81E /* SmallWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01B40A9250EBD840078D81E /* SmallWidgetView.swift */; };
+		A01B40AE250EBDA50078D81E /* MediumLargeWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01B40AC250EBDA50078D81E /* MediumLargeWidgetView.swift */; };
+		A01B4196250EC0170078D81E /* URLImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01B4195250EC0170078D81E /* URLImage.swift */; };
+		A0203AB9251441E60045F309 /* ArticleRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0203AB8251441E60045F309 /* ArticleRow.swift */; };
 		A09DEB0B2500487C00593EB1 /* GoodNewsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09DEB0A2500487C00593EB1 /* GoodNewsApp.swift */; };
 		A09DEB0D2500487C00593EB1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09DEB0C2500487C00593EB1 /* ContentView.swift */; };
 		A09DEB0F2500487E00593EB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A09DEB0E2500487E00593EB1 /* Assets.xcassets */; };
 		A09DEB122500487E00593EB1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A09DEB112500487E00593EB1 /* Preview Assets.xcassets */; };
 		A09DEB1D2500487E00593EB1 /* GoodNewsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09DEB1C2500487E00593EB1 /* GoodNewsTests.swift */; };
 		A09DEB282500487E00593EB1 /* GoodNewsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09DEB272500487E00593EB1 /* GoodNewsUITests.swift */; };
+		A0FA046425165C7B0045AE3D /* Color+.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0FA046325165C7B0045AE3D /* Color+.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		A01B4092250EB0E60078D81E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A09DEAFF2500487C00593EB1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A01B4085250EB0E50078D81E;
+			remoteInfo = HeadlinesWidgetExtension;
+		};
 		A09DEB192500487E00593EB1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = A09DEAFF2500487C00593EB1 /* Project object */;
@@ -32,7 +56,36 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		A01B407E250EB0BF0078D81E /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				A01B4094250EB0E60078D81E /* HeadlinesWidgetExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		A01B406E250EB0BF0078D81E /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		A01B4070250EB0BF0078D81E /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		A01B4086250EB0E50078D81E /* HeadlinesWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = HeadlinesWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		A01B408A250EB0E50078D81E /* HeadlinesWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadlinesWidget.swift; sourceTree = "<group>"; };
+		A01B408C250EB0E50078D81E /* HeadlinesWidget.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = HeadlinesWidget.intentdefinition; sourceTree = "<group>"; };
+		A01B408D250EB0E60078D81E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A01B408F250EB0E60078D81E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A01B4098250EB7880078D81E /* HeadlinesWidgetEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadlinesWidgetEntryView.swift; sourceTree = "<group>"; };
+		A01B409A250EB7BC0078D81E /* HeadlinesWidgetEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadlinesWidgetEntry.swift; sourceTree = "<group>"; };
+		A01B409C250EB7D90078D81E /* HeadlinesWidgetProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadlinesWidgetProvider.swift; sourceTree = "<group>"; };
+		A01B40A6250EBABB0078D81E /* TopHeadlines.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopHeadlines.swift; sourceTree = "<group>"; };
+		A01B40A9250EBD840078D81E /* SmallWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallWidgetView.swift; sourceTree = "<group>"; };
+		A01B40AC250EBDA50078D81E /* MediumLargeWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediumLargeWidgetView.swift; sourceTree = "<group>"; };
+		A01B4195250EC0170078D81E /* URLImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLImage.swift; sourceTree = "<group>"; };
+		A0203AB8251441E60045F309 /* ArticleRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleRow.swift; sourceTree = "<group>"; };
 		A09DEB072500487C00593EB1 /* GoodNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoodNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A09DEB0A2500487C00593EB1 /* GoodNewsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodNewsApp.swift; sourceTree = "<group>"; };
 		A09DEB0C2500487C00593EB1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,9 +98,19 @@
 		A09DEB232500487E00593EB1 /* GoodNewsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoodNewsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A09DEB272500487E00593EB1 /* GoodNewsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodNewsUITests.swift; sourceTree = "<group>"; };
 		A09DEB292500487E00593EB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0FA046325165C7B0045AE3D /* Color+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		A01B4083250EB0E50078D81E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A01B4088250EB0E50078D81E /* SwiftUI.framework in Frameworks */,
+				A01B4087250EB0E50078D81E /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A09DEB042500487C00593EB1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -72,12 +135,90 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A01B406D250EB0BF0078D81E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A01B406E250EB0BF0078D81E /* WidgetKit.framework */,
+				A01B4070250EB0BF0078D81E /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A01B4089250EB0E50078D81E /* HeadlinesWidget */ = {
+			isa = PBXGroup;
+			children = (
+				A01B408C250EB0E50078D81E /* HeadlinesWidget.intentdefinition */,
+				A01B408F250EB0E60078D81E /* Info.plist */,
+				A01B408A250EB0E50078D81E /* HeadlinesWidget.swift */,
+				A01B40A1250EB87B0078D81E /* Model */,
+				A01B409F250EB8700078D81E /* Provider */,
+				A01B409E250EB8690078D81E /* Resources */,
+				A01B40A0250EB8760078D81E /* View */,
+			);
+			path = HeadlinesWidget;
+			sourceTree = "<group>";
+		};
+		A01B409E250EB8690078D81E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A01B408D250EB0E60078D81E /* Assets.xcassets */,
+				A0FA046325165C7B0045AE3D /* Color+.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A01B409F250EB8700078D81E /* Provider */ = {
+			isa = PBXGroup;
+			children = (
+				A01B409C250EB7D90078D81E /* HeadlinesWidgetProvider.swift */,
+			);
+			path = Provider;
+			sourceTree = "<group>";
+		};
+		A01B40A0250EB8760078D81E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A01B4098250EB7880078D81E /* HeadlinesWidgetEntryView.swift */,
+				A01B40AC250EBDA50078D81E /* MediumLargeWidgetView.swift */,
+				A01B40A9250EBD840078D81E /* SmallWidgetView.swift */,
+				A01B4197250EC0250078D81E /* Item */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A01B40A1250EB87B0078D81E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A01B409A250EB7BC0078D81E /* HeadlinesWidgetEntry.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A01B40A5250EBAA30078D81E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A01B40A6250EBABB0078D81E /* TopHeadlines.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A01B4197250EC0250078D81E /* Item */ = {
+			isa = PBXGroup;
+			children = (
+				A0203AB8251441E60045F309 /* ArticleRow.swift */,
+				A01B4195250EC0170078D81E /* URLImage.swift */,
+			);
+			path = Item;
+			sourceTree = "<group>";
+		};
 		A09DEAFE2500487C00593EB1 = {
 			isa = PBXGroup;
 			children = (
 				A09DEB092500487C00593EB1 /* GoodNews */,
 				A09DEB1B2500487E00593EB1 /* GoodNewsTests */,
 				A09DEB262500487E00593EB1 /* GoodNewsUITests */,
+				A01B4089250EB0E50078D81E /* HeadlinesWidget */,
+				A01B406D250EB0BF0078D81E /* Frameworks */,
 				A09DEB082500487C00593EB1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -88,6 +229,7 @@
 				A09DEB072500487C00593EB1 /* GoodNews.app */,
 				A09DEB182500487E00593EB1 /* GoodNewsTests.xctest */,
 				A09DEB232500487E00593EB1 /* GoodNewsUITests.xctest */,
+				A01B4086250EB0E50078D81E /* HeadlinesWidgetExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,10 +237,11 @@
 		A09DEB092500487C00593EB1 /* GoodNews */ = {
 			isa = PBXGroup;
 			children = (
-				A09DEB0A2500487C00593EB1 /* GoodNewsApp.swift */,
-				A09DEB0C2500487C00593EB1 /* ContentView.swift */,
-				A09DEB0E2500487E00593EB1 /* Assets.xcassets */,
 				A09DEB132500487E00593EB1 /* Info.plist */,
+				A09DEB0C2500487C00593EB1 /* ContentView.swift */,
+				A09DEB0A2500487C00593EB1 /* GoodNewsApp.swift */,
+				A09DEB0E2500487E00593EB1 /* Assets.xcassets */,
+				A01B40A5250EBAA30078D81E /* Model */,
 				A09DEB102500487E00593EB1 /* Preview Content */,
 			);
 			path = GoodNews;
@@ -133,6 +276,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		A01B4085250EB0E50078D81E /* HeadlinesWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A01B4095250EB0E60078D81E /* Build configuration list for PBXNativeTarget "HeadlinesWidgetExtension" */;
+			buildPhases = (
+				A01B4082250EB0E50078D81E /* Sources */,
+				A01B4083250EB0E50078D81E /* Frameworks */,
+				A01B4084250EB0E50078D81E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HeadlinesWidgetExtension;
+			productName = HeadlinesWidgetExtension;
+			productReference = A01B4086250EB0E50078D81E /* HeadlinesWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		A09DEB062500487C00593EB1 /* GoodNews */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = A09DEB2C2500487E00593EB1 /* Build configuration list for PBXNativeTarget "GoodNews" */;
@@ -140,10 +300,12 @@
 				A09DEB032500487C00593EB1 /* Sources */,
 				A09DEB042500487C00593EB1 /* Frameworks */,
 				A09DEB052500487C00593EB1 /* Resources */,
+				A01B407E250EB0BF0078D81E /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				A01B4093250EB0E60078D81E /* PBXTargetDependency */,
 			);
 			name = GoodNews;
 			productName = GoodNews;
@@ -195,6 +357,9 @@
 				LastSwiftUpdateCheck = 1200;
 				LastUpgradeCheck = 1200;
 				TargetAttributes = {
+					A01B4085250EB0E50078D81E = {
+						CreatedOnToolsVersion = 12.0;
+					};
 					A09DEB062500487C00593EB1 = {
 						CreatedOnToolsVersion = 12.0;
 					};
@@ -224,11 +389,20 @@
 				A09DEB062500487C00593EB1 /* GoodNews */,
 				A09DEB172500487E00593EB1 /* GoodNewsTests */,
 				A09DEB222500487E00593EB1 /* GoodNewsUITests */,
+				A01B4085250EB0E50078D81E /* HeadlinesWidgetExtension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		A01B4084250EB0E50078D81E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A01B408E250EB0E60078D81E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A09DEB052500487C00593EB1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -255,11 +429,31 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		A01B4082250EB0E50078D81E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A01B40AB250EBD840078D81E /* SmallWidgetView.swift in Sources */,
+				A0FA046425165C7B0045AE3D /* Color+.swift in Sources */,
+				A01B409B250EB7BC0078D81E /* HeadlinesWidgetEntry.swift in Sources */,
+				A01B40AE250EBDA50078D81E /* MediumLargeWidgetView.swift in Sources */,
+				A01B4196250EC0170078D81E /* URLImage.swift in Sources */,
+				A01B409D250EB7D90078D81E /* HeadlinesWidgetProvider.swift in Sources */,
+				A01B4090250EB0E60078D81E /* HeadlinesWidget.intentdefinition in Sources */,
+				A0203AB9251441E60045F309 /* ArticleRow.swift in Sources */,
+				A01B40A8250EBABB0078D81E /* TopHeadlines.swift in Sources */,
+				A01B408B250EB0E50078D81E /* HeadlinesWidget.swift in Sources */,
+				A01B4099250EB7880078D81E /* HeadlinesWidgetEntryView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A09DEB032500487C00593EB1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A01B4091250EB0E60078D81E /* HeadlinesWidget.intentdefinition in Sources */,
 				A09DEB0D2500487C00593EB1 /* ContentView.swift in Sources */,
+				A01B40A7250EBABB0078D81E /* TopHeadlines.swift in Sources */,
 				A09DEB0B2500487C00593EB1 /* GoodNewsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,6 +477,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		A01B4093250EB0E60078D81E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A01B4085250EB0E50078D81E /* HeadlinesWidgetExtension */;
+			targetProxy = A01B4092250EB0E60078D81E /* PBXContainerItemProxy */;
+		};
 		A09DEB1A2500487E00593EB1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = A09DEB062500487C00593EB1 /* GoodNews */;
@@ -296,6 +495,48 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		A01B4096250EB0E60078D81E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QWSBPHB397;
+				INFOPLIST_FILE = HeadlinesWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lisandro.GoodNews.HeadlinesWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A01B4097250EB0E60078D81E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QWSBPHB397;
+				INFOPLIST_FILE = HeadlinesWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lisandro.GoodNews.HeadlinesWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		A09DEB2A2500487E00593EB1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -415,6 +656,7 @@
 		A09DEB2D2500487E00593EB1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -437,6 +679,7 @@
 		A09DEB2E2500487E00593EB1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -543,6 +786,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		A01B4095250EB0E60078D81E /* Build configuration list for PBXNativeTarget "HeadlinesWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A01B4096250EB0E60078D81E /* Debug */,
+				A01B4097250EB0E60078D81E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		A09DEB022500487C00593EB1 /* Build configuration list for PBXProject "GoodNews" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

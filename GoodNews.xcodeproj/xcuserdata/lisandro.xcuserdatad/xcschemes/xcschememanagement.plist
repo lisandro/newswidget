@@ -7,7 +7,40 @@
 		<key>GoodNews.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>HeadlinesExtension.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+		<key>HeadlinesWidgetExtension.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>A01B4085250EB0E50078D81E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A09DEB062500487C00593EB1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A09DEB172500487E00593EB1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A09DEB222500487E00593EB1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
